@@ -83,7 +83,7 @@ function App() {
           <input
               type="checkbox"
               defaultChecked={charAllowed}
-              id="characterInput"
+              id="characterInput" 
               onChange={() => {
                   setCharAllowed((prev) => !prev )
               }}
